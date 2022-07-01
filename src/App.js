@@ -5,7 +5,7 @@ import LoginRegister from './Components/LoginRegister/LoginRegister';
 function App() {
   return (
     <div >
-      hemlo 
+  
       <LoginRegister/>
       <About/>
     </div>

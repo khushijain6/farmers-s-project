@@ -1,28 +1,39 @@
-/*import React from 'react'
-import './LoginRegister,css'
+import React from 'react'
+import './LoginRegister.css'
+
+import Button from '@mui/material/Button';
+import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
+import HowToRegIcon from '@mui/icons-material/HowToReg';
 function LoginRegister() {
-  const newLocal = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmt_dKoPmX6-0NN1GSK9FbYlmvK_7ASzFHvw&usqp=CAU'
   return (
     <>
-      <h3>LOGIN/REGISTER</h3>
-      <center>
-        <ul className="homepageGuide column">
-          <img className="img-responsive" />
-            <p>
-              <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmt_dKoPmX6-0NN1GSK9FbYlmvK_7ASzFHvw&usqp=CAU"} width="100%" alt="example one">
-            </p>
-            <span className="color-overlay"></span>
-        </ul>
-          <ul className="homepageGuide column">
-                <img className="img-responsive"  />
-            <p>
-              <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfRzJ0jeqATf_JnoPkrJVpx0E5qcj364cTrp7Fi9gt083ZulaBcN_RmQ1--vX2b1H7CEc&usqp=CAU"} width="100%" alt="example two">
-            </p>
-            <span className="color-overlay"></span>
-        </ul>
-      </center>
+      <div className='heading'>
+        <div>LOGIN/REGISTRATION</div>    
+      </div>
+      <div className='image-box'>
+        <div className='imagebox'>
+          <ManageAccountsIcon sx={{fontSize:"310px"}}/>
+          <br/>
+          <Button variant="contained"  sx={{ bgcolor:"#55d483",marginLeft:10,padding: "12px 35px",fontSize:"17px" }} size="large">
+                Click Here
+          </Button>
+        </div>
+
+        <div className='imagebox'>
+          <HowToRegIcon sx={{fontSize:"310px"}}/>
+          <br/>
+          <div className='ok'>
+          <Button variant="contained"  sx={{bgcolor:"#55d483", marginLeft:10 ,padding: "12px 35px",fontSize:"17px"}} size="large">
+                Click Here
+          </Button>
+          </div>
+       
+          
+        </div>
+
+      </div>
     </>
   )
 }
 
-export default LoginRegister*/
+export default LoginRegister
