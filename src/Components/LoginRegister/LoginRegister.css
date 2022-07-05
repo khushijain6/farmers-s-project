@@ -16,6 +16,38 @@
   .imagebox{
     margin: 70px;
   }
-  .css-5eac6e-MuiButtonBase-root-MuiButton-root {
+  /* .css-5eac6e-MuiButtonBase-root-MuiButton-root {
     margin: 20px;
-  } 
+  }  */
+  @media (max-width:1530px) {
+    .heading{
+      font-size: 50px;
+    }
+  }
+  
+  @media (max-width:1200px) {
+    .heading{
+      font-size: 40px;
+    }
+  }
+  
+  @media (max-width:900px) {
+    .heading{
+      font-size: 35px;
+    }
+    .imagebox {
+      margin: 50px;
+    }
+    
+  }
+  
+  @media (max-width:600px) {
+    .heading{
+      font-size: 35px;
+    }
+  }
+  @media (max-width:360px) {
+    .heading{
+      font-size: 25px;
+    }
+  }
